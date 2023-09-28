@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["app/*"]
+    },
+    "types": [],
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "index.d.ts",
+    "src/*.ts",
+    "src/*.tsx",
+    "tests/**/*.ts",
+  ]
+}
